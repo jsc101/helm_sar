@@ -1,0 +1,6 @@
+Name,HELM,EC50_BSA_pM,pEC50_BSA,EC50_HSA_pM,pEC50_HSA,Lipidation,Alpha_methyl_count
+GLP-1_ref,PEPTIDE1{H.A.E.G.T.F.T.S.D.V.S.S.Y.L.E.G.Q.A.A.K.E.F.I.A.W.L.V.K.G.R}$$$$V2.0,2.1,11.68,3.3,11.48,none,0
+Semaglutide,"PEPTIDE1{H.[Aib].E.G.T.F.T.S.D.V.S.S.Y.L.E.G.Q.A.A.K.E.F.I.A.W.L.V.K.G.R}|PEPTIDE2{[gGlu].[Ado].[Ado].[C18d]}$PEPTIDE2,PEPTIDE1,1:R1-20:R3$$$V2.0",12,10.92,2630,8.58,mono-C18,1
+J211,PEPTIDE1{H.[Aib].E.G.S.[aMePhe].T.S.D.V.[aMeSer].S.[aMePhe].L.E.G.E.A.A.[aMeLys].E.[aMePhe].I.A.[aMePhe].V.V.[aMeLys].G.G}$$$$V2.0,,,,,none,8
+J229,"PEPTIDE1{H.[Aib].E.G.S.[aMePhe].T.S.D.V.[aMeSer].S.[aMePhe].L.E.G.E.A.A.[aMeLys].E.[aMePhe].I.A.[aMePhe].V.V.[aMeLys].G.G}|PEPTIDE2{[gGlu].[Ado].[Ado].[C18d]}$PEPTIDE2,PEPTIDE1,1:R1-20:R3$$$V2.0",132,9.88,,,mono-C18,8
+MEDI7219,"PEPTIDE1{H.[Aib].E.G.S.[aMePhe].T.S.D.V.[aMeSer].S.K.L.E.G.E.A.A.[aMeLys].E.[aMePhe].I.A.K.V.V.E.G.G}|PEPTIDE2{[Ado].[Ado].[C12d]}|PEPTIDE3{[Ado].[Ado].[C12d]}$PEPTIDE2,PEPTIDE1,1:R1-13:R3|PEPTIDE3,PEPTIDE1,1:R1-25:R3$$$V2.0",3.4,11.47,398,9.40,bis-C12,5

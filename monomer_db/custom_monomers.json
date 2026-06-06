@@ -133,5 +133,61 @@
       {"label": "R1", "capGroupSmiles": "[H]", "description": "acetylated N-terminus (no free amine)"},
       {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
     ]
+  },
+  {
+    "symbol": "Aib",
+    "name": "2-Aminoisobutyric acid (alpha-methylalanine, Aib)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NC(C)(C)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus (alpha-methyl blocks DPP-IV)"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
+    ]
+  },
+  {
+    "symbol": "aMePhe",
+    "name": "alpha-Methyl-L-phenylalanine (alpha-MePhe)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NC(C)(Cc1ccccc1)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
+    ]
+  },
+  {
+    "symbol": "aMeSer",
+    "name": "alpha-Methyl-L-serine (alpha-MeSer)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NC(C)(CO)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
+    ]
+  },
+  {
+    "symbol": "aMeLys",
+    "name": "alpha-Methyl-L-lysine (alpha-MeLys, epsilon-N available for lipidation)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NC(C)(CCCCN[*:3])C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"},
+      {"label": "R3", "capGroupSmiles": "[H]", "description": "epsilon-amine (lipidation / sidechain attachment)"}
+    ]
+  },
+  {
+    "symbol": "C12d",
+    "name": "Dodecanedioic acid terminal (C12 diacid, dodecanoic lipid)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NCCCCCCCCCCCC(=O)O",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "amine attachment to linker"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "free distal COOH (diacid)"}
+    ]
   }
 ]
