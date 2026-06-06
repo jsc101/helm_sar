@@ -1,0 +1,137 @@
+[
+  {
+    "symbol": "Triazole14",
+    "name": "1,4-disubstituted 1,2,3-triazole (CuAAC product)",
+    "polymerType": "CHEM",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]n1cc([*:2])nn1",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "From azide N"},
+      {"label": "R2", "capGroupSmiles": "[H]", "description": "From alkyne C4"}
+    ]
+  },
+  {
+    "symbol": "Aha",
+    "name": "L-Azidohomoalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]N[C@@H](CC[N-][N+]#N)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"},
+      {"label": "R3", "capGroupSmiles": "[H]", "description": "Azide N — click handle → Triazole14:R1"}
+    ]
+  },
+  {
+    "symbol": "Hpg",
+    "name": "L-Homopropargylglycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]N[C@@H](CCC#C)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"},
+      {"label": "R3", "capGroupSmiles": "[H]", "description": "Alkyne C — click handle → Triazole14:R2"}
+    ]
+  },
+  {
+    "symbol": "Pra",
+    "name": "L-Propargylglycine (shorter alkyne handle)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]N[C@@H](CC#C)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"},
+      {"label": "R3", "capGroupSmiles": "[H]", "description": "Alkyne C — click handle → Triazole14:R2"}
+    ]
+  },
+  {
+    "symbol": "gGlu",
+    "name": "L-gamma-glutamic acid (protraction linker, alpha-N to chain, gamma-COOH free)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]N[C@@H](CCC(=O)O)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "alpha-N (chain N-term / Lys R3 attachment)"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "alpha-COOH (chain C-term)"}
+    ]
+  },
+  {
+    "symbol": "Ado",
+    "name": "8-amino-3,6-dioxaoctanoic acid (PEG spacer)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NCCOCCOCCC(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "amine N (chain N-term)"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "carboxyl (chain C-term)"}
+    ]
+  },
+  {
+    "symbol": "C14d",
+    "name": "Tetradecanedioic acid terminal (C14 diacid)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NCCCCCCCCCCCCCC(=O)O",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "amine attachment to linker"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "free distal COOH (diacid)"}
+    ]
+  },
+  {
+    "symbol": "C16d",
+    "name": "Hexadecanedioic acid terminal (C16 diacid)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NCCCCCCCCCCCCCCCC(=O)O",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "amine attachment to linker"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "free distal COOH (diacid)"}
+    ]
+  },
+  {
+    "symbol": "C18d",
+    "name": "Octadecanedioic acid terminal (C18 diacid)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NCCCCCCCCCCCCCCCCCC(=O)O",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "amine attachment to linker"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "free distal COOH (diacid)"}
+    ]
+  },
+  {
+    "symbol": "C20d",
+    "name": "Eicosanedioic acid terminal (C20 diacid)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]NCCCCCCCCCCCCCCCCCCCC(=O)O",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "amine attachment to linker"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "free distal COOH (diacid)"}
+    ]
+  },
+  {
+    "symbol": "meR",
+    "name": "N-methyl-arginine (backbone N-methylated Arg)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]N(C)[C@@H](CCCNC(=N)N)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-methyl N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
+    ]
+  },
+  {
+    "symbol": "AcI",
+    "name": "N-acetyl-isoleucine (N-terminal acetylation cap on Ile)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "CC(=O)[N:1][C@@H]([C@@H](C)CC)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "acetylated N-terminus (no free amine)"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
+    ]
+  }
+]

@@ -1,0 +1,7341 @@
+[
+  {
+    "symbol": "A",
+    "name": "Alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "C[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dA",
+    "name": "D-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "C[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meA",
+    "name": "N-methyl-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "CN[C@@H](C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dA",
+    "name": "N-methyl-D-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "CN[C@H](C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ala_tBu",
+    "name": "3-tert-butyl-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "CC(C)(C)C[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ala_indol_2_yl",
+    "name": "3-indol-2-yl-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](Cc1cc2ccccc2[nH]1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dAla_indol_2_yl",
+    "name": "3-indol-2-yl-D-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@H](Cc1cc2ccccc2[nH]1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Ala_indol_2_yl",
+    "name": "N-methyl-3-indol-2-yl-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "CN[C@@H](Cc1cc2ccccc2[nH]1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ala_5_Tet",
+    "name": "3-tetrazol-5-yl-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](Cc1nnn[nH]1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Abu",
+    "name": "2-aminobutanoic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dAbu",
+    "name": "D-2-aminobutyric acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Abu",
+    "name": "N-methyl-L-2-aminobutyric acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dAbu",
+    "name": "N-methyl-D-2-aminobutyric acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Abu_morpholino",
+    "name": "N-methyl-L-4-morpholino-2-aminobutyric acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CN[C@@H](CCN1CCOCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "2Abz",
+    "name": "Anthranilic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "Nc1ccccc1C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Aib",
+    "name": "alpha-methyl-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC(C)(N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Aoc_2",
+    "name": "6-ethyl-L-norleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CCCCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "5_Ava",
+    "name": "5-aminovaleric acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NCCCCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Bal",
+    "name": "beta-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "NCCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Bal",
+    "name": "N-methyl-beta alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "CNCCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "HOCOCH2_Bal",
+    "name": "N-(carboxymethyl)-beta alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "O=C(O)CCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Cys_EtO2H_NH2",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "C",
+    "smiles": "NC(=O)[C@@H](N)CSCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Cha",
+    "name": "3-cyclohexyl-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](CC1CCCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dCha",
+    "name": "3-cyclohexyl-D-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@H](CC1CCCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Cha",
+    "name": "N-methyl-3-cyclohexyl-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "CN[C@@H](CC1CCCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "D",
+    "name": "Aspartic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "D",
+    "smiles": "N[C@@H](CC(=O)O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "O[*:3]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meD",
+    "name": "N-methyl-L-aspartic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "D",
+    "smiles": "CN[C@@H](CC(=O)O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "O[*:3]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Asp_piperidide",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "D",
+    "smiles": "N[C@@H](CC(=O)O)C(=O)N1CCCCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Asp_OMe",
+    "name": "O4-methyl-L-aspartic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "D",
+    "smiles": "COC(=O)C[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Asp_Ph_2_NH2",
+    "name": "Kynurenine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "D",
+    "smiles": "Nc1ccccc1C(=O)C[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dAsp_pyrrol_1_yl",
+    "name": "4-oxo-4-pyrrol-1-yl-D-homoalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "D",
+    "smiles": "N[C@H](CC(=O)N1CCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "E",
+    "name": "Glutamic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "E",
+    "smiles": "N[C@@H](CCC(=O)O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "O[*:3]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Glu_NH2",
+    "name": "Isoglutamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "E",
+    "smiles": "NC(=O)[C@@H](N)CCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Glu_3R_Me",
+    "name": "(3r)-3-methyl-L-glutamic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "E",
+    "smiles": "C[C@H](CC(=O)O)[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Glu_OMe",
+    "name": "5-methyl-L-glutamate",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "E",
+    "smiles": "COC(=O)CC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dGlu_OMe",
+    "name": "5-methyl-D-glutamate",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "E",
+    "smiles": "COC(=O)CC[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "F",
+    "name": "Phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dF",
+    "name": "D-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meF",
+    "name": "N-methyl-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dF",
+    "name": "N-methyl-D-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN[C@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_4_F",
+    "name": "4-fluoro-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1ccc(F)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dPhe_4_F",
+    "name": "4-fluoro-D-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@H](Cc1ccc(F)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_4_CF3",
+    "name": "4-(trifluoromethyl)-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1ccc(C(F)(F)F)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_4_NO2",
+    "name": "4-nitro-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1ccc([N+](=O)[O-])cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_CHF2",
+    "name": "4-(difluoromethyl)-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1ccc(C(F)F)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dPhe_3,4_diF",
+    "name": "3,4-difluoro-D-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@H](Cc1ccc(F)c(F)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Et_Phe",
+    "name": "N-ethyl-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "H2NEt_Phe",
+    "name": "N-(2-aminoethyl)-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Phe_3_Cl",
+    "name": "N-methyl-3-chloro-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN[C@@H](Cc1cccc(Cl)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Phe_4_Cl",
+    "name": "N-methyl-4-chloro-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN[C@@H](Cc1ccc(Cl)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Phe_a,b_dehydro",
+    "name": "N-methyl-alpha,beta-didehydro-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN/C(=C\\c1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "G",
+    "name": "Glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "NCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Bn_Gly",
+    "name": "N-benzyl-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCc1ccccc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Bn_4_Cl_Gly",
+    "name": "N-(4-chlorobenzyl)-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCc1ccc(Cl)cc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Bn_4_OH_Gly",
+    "name": "N-(4-hydroxybenzyl)-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCc1ccc(O)cc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Bu_Gly",
+    "name": "N-butyl-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CCCCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "iBu_Gly",
+    "name": "N-isobutyl-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CC(C)CNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Et_Gly",
+    "name": "N-ethyl-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "EtOEt_Gly",
+    "name": "N-(2-ethoxyethyl)-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CCOCCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "HOCOCH2_Gly_ol",
+    "name": "Petalonine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCCO",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "MeOEt_Gly",
+    "name": "N-(2-methoxyethyl)-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "COCCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "NH2Bu_Gly",
+    "name": "N-(4-aminobutyl)glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "NCCCCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Pr_Gly",
+    "name": "N-propyl-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CCCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "PhEt_Gly",
+    "name": "N-(2-phenylethyl)-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCCc1ccccc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "PhPr_Gly",
+    "name": "N-(3-phenylpropyl)-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCCCc1ccccc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "cHexCH2_Gly",
+    "name": "N-cyclohexylmethyl-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCC1CCCCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "isoamyl_Gly",
+    "name": "N-(3-methylbutyl)-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CC(C)CCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "pentyl_Gly",
+    "name": "N-pentyl-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CCCCCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "3_pyridylethyl_Gly",
+    "name": "N-(2-pyrid-3-ylethyl)-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCCc1cccnc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "2_pyridylmethyl_Gly",
+    "name": "N-pyrid-2-ylmethyl-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCc1ccccn1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "d_NtoOGly_allyl",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "C=CC[C@@H](O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "GABA",
+    "name": "4-aminobutyric acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NCCCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "H",
+    "name": "Histidine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "H",
+    "smiles": "N[C@@H](Cc1c[nH]cn1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph",
+    "name": "Homophenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](CCc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Hph",
+    "name": "N-methyl-L-homophenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN[C@@H](CCc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "bHph",
+    "name": "beta-homophenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@H](CC(=O)O)Cc1ccccc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph_2_Cl",
+    "name": "2-chloro-L-homophenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](CCc1ccccc1Cl)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph_3_Cl",
+    "name": "3-chloro-L-homophenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](CCc1cccc(Cl)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph_4_Cl",
+    "name": "4-chloro-L-homophenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](CCc1ccc(Cl)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hse_Et",
+    "name": "O-ethyl-L-homoserine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CCOCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dHyp",
+    "name": "4-hydroxy-D-proline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "O=C(O)[C@H]1C[C@H](O)CN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hyp_Et",
+    "name": "(4R)-4-(ethyloxy)-L-proline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "CCO[C@H]1CN[C@H](C(=O)O)C1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "I",
+    "name": "Isoleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "I",
+    "smiles": "CC[C@H](C)[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dI",
+    "name": "D-isoleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "I",
+    "smiles": "CC[C@@H](C)[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meI",
+    "name": "N-methyl-L-isoleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "I",
+    "smiles": "CC[C@H](C)[C@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dI",
+    "name": "N-methyl-D-isoleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "I",
+    "smiles": "CC[C@@H](C)[C@@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "NtoOxiIle",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "I",
+    "smiles": "CCC(C)[C@H](O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "d_NtoOaIle",
+    "name": "D-alloisoleucic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "I",
+    "smiles": "CC[C@H](C)[C@@H](O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "K",
+    "name": "Lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "NCCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dK",
+    "name": "D-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "NCCCC[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meK",
+    "name": "N-methyl-L-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "CN[C@@H](CCCCN)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dK",
+    "name": "N-methyl-D-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "CN[C@H](CCCCN)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Lys_Ac",
+    "name": "N6-acetyl-L-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "CC(=O)NCCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Lys_Cbz",
+    "name": "N6-benzyloxycarbonyl-L-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "N[C@@H](CCCCNC(=O)OCc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Lys_iPr",
+    "name": "N6-isopropyl-L-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "CC(C)NCCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Lys_Me",
+    "name": "N6-methyl-L-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "CNCCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Lys_Me",
+    "name": "N-methyl-N6-methyl-L-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "CNCCCC[C@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Lys_Me2",
+    "name": "N6,N6-dimethyl-L-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "CN(C)CCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Lys_Tfa",
+    "name": "N6-trifluoroacetyl-L-lysine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "N[C@@H](CCCCNC(=O)C(F)(F)F)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "L",
+    "name": "Leucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CC(C)C[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dL",
+    "name": "D-leucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CC(C)C[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meL",
+    "name": "N-methyl-L-leucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CN[C@@H](CC(C)C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dL",
+    "name": "N-methyl-D-leucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CN[C@H](CC(C)C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "aMeLeu",
+    "name": "2-methyl-L-leucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CC(C)C[C@](C)(N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dLeu_3R_OH",
+    "name": "(3R)-3-hydroxy-D-leucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CC(C)[C@@H](O)[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "NtoOLeu",
+    "name": "Leucic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CC(C)C[C@H](O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "d_NtoOLeu",
+    "name": "D-leucic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CC(C)C[C@@H](O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "M",
+    "name": "Methionine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "M",
+    "smiles": "CSCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meM",
+    "name": "N-methyl-L-methionine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "M",
+    "smiles": "CN[C@@H](CCSC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Met_O2",
+    "name": "Methionine sulfone",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "M",
+    "smiles": "CS(=O)(=O)CC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "N",
+    "name": "Asparagine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "N",
+    "smiles": "NC(=O)C[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dN",
+    "name": "D-asparagine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "N",
+    "smiles": "NC(=O)C[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meN",
+    "name": "N-methyl-L-asparagine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "N",
+    "smiles": "CN[C@@H](CC(N)=O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dAsn_Me2",
+    "name": "N4,N4-dimethyl-D-asparagine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "N",
+    "smiles": "CN(C)C(=O)C[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Nal",
+    "name": "3-(2-naphthyl)-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](Cc1ccc2ccccc2c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "1_Nal",
+    "name": "3-(1-naphthyl)-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](Cc1cccc2ccccc12)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "d1_Nal",
+    "name": "3-(1-naphthyl)-D-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@H](Cc1cccc2ccccc12)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Nle",
+    "name": "Norleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Nle",
+    "name": "N-methyl-L-norleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CCCC[C@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dNle",
+    "name": "N-methyl-D-norleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CCCC[C@@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Nle_CHF2",
+    "name": "6-(difluoromethyl)-L-norleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "N[C@@H](CCCCC(F)F)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Nle_OH",
+    "name": "6-hydroxy-L-norleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "N[C@@H](CCCCO)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Nva",
+    "name": "Norvaline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dNva",
+    "name": "D-norvaline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CCC[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Nva",
+    "name": "N-methyl-L-norvaline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CCC[C@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dNva",
+    "name": "N-methyl-D-norvaline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CCC[C@@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Nva_Ph",
+    "name": "5-phenyl-L-norvaline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "N[C@@H](CCCc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Orn",
+    "name": "Ornithine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "NCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "P",
+    "name": "Proline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "O=C(O)[C@@H]1CCCN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dP",
+    "name": "D-proline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "O=C(O)[C@H]1CCCN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "3Pal",
+    "name": "3-(3-pyridyl)-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](Cc1cccnc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "4Pal",
+    "name": "3-(4-pyridyl)-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](Cc1ccncc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phg",
+    "name": "2-phenyl-L-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "N[C@H](C(=O)O)c1ccccc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Pip",
+    "name": "Pipecolic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "O=C(O)[C@@H]1CCCCN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dPip",
+    "name": "D-pipecolic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "O=C(O)[C@H]1CCCCN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Pye",
+    "name": "N,N-pyrrolidinyl glutamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "N[C@@H](CCC(=O)N1CCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dPye",
+    "name": "D-N,N-pyrrolidinyl glutamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "N[C@H](CCC(=O)N1CCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Q",
+    "name": "Glutamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "NC(=O)CC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meQ",
+    "name": "N-methyl-L-glutamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "CN[C@@H](CCC(N)=O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Gln_Me",
+    "name": "N5-methyl-L-glutamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "CNC(=O)CC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Gln_Me2",
+    "name": "N5,N5-dimethyl-L-glutamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "CN(C)C(=O)CC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dGln_Me2",
+    "name": "N5,N5-dimethyl-D-glutamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "CN(C)C(=O)CC[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Gln_Mes",
+    "name": "N5-mesyl-L-glutamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "CS(=O)(=O)NC(=O)CC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "R",
+    "name": "Arginine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "R",
+    "smiles": "N=C(N)NCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dR",
+    "name": "D-arginine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "R",
+    "smiles": "N=C(N)NCCC[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Arg_Me,Me",
+    "name": "N3,N4-dimethylarginine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "R",
+    "smiles": "C/N=C(\\NC)NCCC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "S",
+    "name": "Serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@@H](CO)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dS",
+    "name": "D-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@H](CO)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meS",
+    "name": "N-methyl-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CN[C@@H](CO)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_Ac",
+    "name": "O-acetyl-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CC(=O)OC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_Bn",
+    "name": "O-benzyl-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@@H](COCc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_EtNMe2",
+    "name": "O-(2-dimethylaminoethyl)-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CN(C)CCOC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_EtOH",
+    "name": "O-(2-hydroxyethyl)-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@@H](COCCO)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_isoamyl",
+    "name": "O-(3-methylbutyl)-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CC(C)CCOC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_Me",
+    "name": "O-methyl-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "COC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dSer_Me",
+    "name": "O-methyl-D-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "COC[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_Ph_2_Cl",
+    "name": "O-(2-chlorophenyl)-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@@H](COc1ccccc1Cl)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_Ph_3_Cl",
+    "name": "O-(3-chlorophenyl)-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@@H](COc1cccc(Cl)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_Pr",
+    "name": "O-propyl-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CCCOC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_tBu",
+    "name": "O-tert-butyl-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CC(C)(C)OC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Ser_isoamyl",
+    "name": "N-methyl-O-(3-methylbutyl)-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CN[C@@H](COCCC(C)C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Ser_Pr",
+    "name": "N-methyl-O-propyl-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CCCOC[C@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Sar",
+    "name": "Sarcosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Sta",
+    "name": "Statine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC(C)C[C@H](N)[C@@H](O)CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Sta_3R,4R",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC(C)C[C@@H](N)[C@H](O)CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "T",
+    "name": "Threonine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "T",
+    "smiles": "C[C@@H](O)[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dT",
+    "name": "D-threonine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "T",
+    "smiles": "C[C@H](O)[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meT",
+    "name": "N-methyl-L-threonine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "T",
+    "smiles": "CN[C@H](C(=O)O)[C@@H](C)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Bmt_E",
+    "name": "N-methyl-(4R)-4-[(E)-but-2-enyl]-4-methyl-L-threonine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "T",
+    "smiles": "C/C=C/C[C@@H](C)[C@@H](O)[C@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Tle",
+    "name": "2-tert-butyl-L-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CC(C)(C)[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Tza",
+    "name": "Thiazolylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](Cc1cscn1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Tza",
+    "name": "N-methyl-L-thiazolylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "CN[C@@H](Cc1cscn1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "V",
+    "name": "Valine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CC(C)[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dV",
+    "name": "D-valine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CC(C)[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meV",
+    "name": "N-methyl-L-valine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CN[C@H](C(=O)O)C(C)C",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dV",
+    "name": "N-methyl-D-valine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CN[C@@H](C(=O)O)C(C)C",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "NtoOVal",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CC(C)[C@H](O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "d_NtoOVal",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CC(C)[C@@H](O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "NtoOVal_3_OH",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CC(C)(O)[C@H](O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "W",
+    "name": "Tryptophan",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "W",
+    "smiles": "N[C@@H](Cc1c[nH]c2ccccc12)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meW",
+    "name": "N-methyl-L-tryptophan",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "W",
+    "smiles": "CN[C@@H](Cc1c[nH]c2ccccc12)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dW",
+    "name": "N-methyl-D-tryptophan",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "W",
+    "smiles": "CN[C@H](Cc1c[nH]c2ccccc12)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Trp_5_Br",
+    "name": "5-bromo-L-tryptophan",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "W",
+    "smiles": "N[C@@H](Cc1c[nH]c2ccc(Br)cc12)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Trp_6_Br",
+    "name": "6-bromo-L-tryptophan",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "W",
+    "smiles": "N[C@@H](Cc1c[nH]c2cc(Br)ccc12)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Trp_7_Br",
+    "name": "7-bromo-L-tryptophan",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "W",
+    "smiles": "N[C@@H](Cc1c[nH]c2c(Br)cccc12)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Y",
+    "name": "Tyrosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "N[C@@H](Cc1ccc(O)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dY",
+    "name": "D-tyrosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "N[C@H](Cc1ccc(O)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meY",
+    "name": "N-methyl-L-tyrosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "CN[C@@H](Cc1ccc(O)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_dY",
+    "name": "N-methyl-D-tyrosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "CN[C@H](Cc1ccc(O)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Tyr_3_F",
+    "name": "3-fluoro-L-tyrosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "N[C@@H](Cc1ccc(O)c(F)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Tyr_CHF2",
+    "name": "O4-(difluoromethyl)-L-tyrosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "N[C@@H](Cc1ccc(OC(F)F)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Tyr_Me",
+    "name": "O-methyl-L-tyrosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "COc1ccc(C[C@H](N)C(=O)O)cc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Tyr_Me",
+    "name": "N-methyl-O4-methyl-L-tyrosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "CN[C@@H](Cc1ccc(OC)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dTyr_bR_OMe",
+    "name": "(betaR)-beta-methoxy-D-tyrosine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "CO[C@H](c1ccc(O)cc1)[C@@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "NtoOTyr",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "O=C(O)[C@@H](O)Cc1ccc(O)cc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono1",
+    "name": "N-piperonyl glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCc1ccc2c(c1)OCO2",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono2",
+    "name": "3beta-methyl-L-proline",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "C[C@H]1CCN[C@@H]1C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono3",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CN[C@@H](CCN1CCCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono4",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "N",
+    "smiles": "CN[C@@H](CC(=O)N1CCCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono5",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "N",
+    "smiles": "CN[C@@H](CC(=O)N1CCOCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono6",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CNCCCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Bal_3_Me",
+    "name": "L-3-aminobutyric acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "C[C@H](N)CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Bal_d3_CF3",
+    "name": "(3R)-3-(trifluoromethyl)-beta-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](CC(=O)O)C(F)(F)F",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono9",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "C=C(CCC(=O)O)c1ccc(C[C@H](N)C(=O)O)cc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "O[*:3]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono10",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "C=C(CCC(=O)O)c1cccc(C[C@H](N)C(=O)O)c1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "O[*:3]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono11",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1ccc(CCCCCC(=O)O)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "O[*:3]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono12",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1cccc(CCCCC(=O)O)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "O[*:3]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono13",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "C[C@H](N)[C@@H](C(=O)NC(C)(C)C)N1CCC[C@H]1C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono14",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@@H](C)[C@H](N)c1nc(C(=O)O)cs1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono15",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "T",
+    "smiles": "C/C=C/C[C@@H](C)[C@@H](OC(C)=O)[C@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono16",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "O=C(O)[C@H](O)CC(O)CCl",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono17",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@@H](N)c1nc(C(=O)O)cs1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono18",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@H](C)[C@H](N)C1=N[C@H](C(=O)O)[C@@H](C)O1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono19",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "N[C@H](Cc1ccccc1)c1nc(C(=O)O)cs1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono20",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC(C)[C@H](N)C1=N[C@H](C(=O)O)[C@@H](C)O1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono23",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@@H](N)[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono24",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "C[C@H]([C@H](N)C(=O)O)[C@@H](C)C(N)=O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono25",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "O=C(O)[C@@H]1C[C@@H](Cl)CCN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono26",
+    "name": "Isostatine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "I",
+    "smiles": "CC[C@H](C)[C@@H](N)[C@@H](O)CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono27",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CC(C)[C@H](O)C(=O)[C@H](C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono28",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C/C(=C\\[C@@H](N)CC(C)C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono29",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C/C(=C\\[C@H](N)CC(C)C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono30",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC(C)C[C@H](N)c1nc(C(=O)O)cs1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono31",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC(C)[C@H](N)c1nc(C(=O)O)cs1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono32",
+    "name": "N-{[3-(trifluoromethyl)phenyl]methyl}glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCc1cccc(C(F)(F)F)c1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono33",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCN1CCOCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono34",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CC(C)OCCCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono35",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@H](c1nnc([C@@H](N)Cc2ccccc2)o1)N1CCC[C@H]1C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono36",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "N[C@@H](Cc1ccccc1)c1nnc([C@@H](Cc2ccccc2)N2CCC[C@H]2C(=O)O)o1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono37",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC(C)C[C@H](c1nnc([C@@H](N)Cc2ccccc2)o1)N1CCC[C@H]1C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono38",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCC1CCOCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono39",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCCOc1ccccc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono40",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "Cn1cc(CCCNCC(=O)O)cn1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono41",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCCCN1CCCC1=O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono42",
+    "name": "n-(2-morpholinoethyl)glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCCN1CCOCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono43",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCCCCc1ccccc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono44",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CC(C)Cc1cc(CNCC(=O)O)no1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono45",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCc1ccccc1Cn1cccn1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono46",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "CC(C)(C)NC(=O)[C@H]([C@@H](N)CSc1ccccc1)N1CCC[C@H]1C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono47",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "CC(C)(C)NC(=O)[C@H]([C@@H]1CN1)N1CCC[C@H]1C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono48",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "O=C(O)CNCCCc1ccc(F)cc1F",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono49",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@@H](COCc1cncc(F)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono50",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@@H](COCC(F)(F)C(F)F)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono51",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CN[C@@H](CCC1CCCC(F)(F)C1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono52",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CN[C@@H](CCC1CCC(F)(F)CC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono53",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CN(C)c1ccc(C[C@H](N)C(=O)O)cn1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono54",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "C[C@H](O)COC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono55",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CC(C)(O)COC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono56",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CC(C)(O)CCOC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono57",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CC(C)(C)NC(=O)COC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono58",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CNCCN1CCC(F)(F)CC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono59",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "O=C(O)[C@@H]1C[C@@H](N2CCC(F)(F)CC2)CN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono60",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "O=C(O)[C@@H]1C[C@H](N2CCC(F)(F)CC2)CN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono61",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CCCC[C@@H](O)[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono62",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@@H](COCCN1CCOCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono63",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "N[C@@H](CCc1noc(=O)[nH]1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono64",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "C[C@@H](O)COC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono65",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "N[C@@H](CCCC(O)C(F)(F)F)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono66",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "N[C@@H](COCC(O)C(F)(F)F)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono67",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CCC[C@H](C)[C@@H](O)[C@@H](C)[C@@H](O)C/C=C(\\C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono68",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CCC[C@H](C)[C@@H](O)[C@@H](C)[C@H](C/C=C(\\C)C(=O)O)OC",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono69",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CCC[C@H](C)[C@@H](OC)[C@@H](C)[C@@H](O)C/C=C(\\C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono70",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C/C=C/C[C@@H](C)C(=O)[C@H](NC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono71",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "H",
+    "smiles": "CCOC(=O)n1cnc(C[C@H](N)C(=O)O)c1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono72",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Q",
+    "smiles": "CCOC(=O)N(C(=O)CC[C@H](N)C(=O)O)C(=O)OCC",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono73",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "N",
+    "smiles": "CCOC(=O)N(C(=O)C[C@H](N)C(=O)O)C(=O)OCC",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono74",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "R",
+    "smiles": "CCOC(=O)/N=C(/NCCC[C@H](N)C(=O)O)NC(=O)OCC",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono75",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono76",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono77",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono78",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCCCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono79",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCCCCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono80",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCCCCCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono81",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCCCCCCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono82",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCCCCCCCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono83",
+    "name": "N-(6-aminohexyl)glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "NCCCCCCNCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono84",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "C[C@H](NCCCCCCN)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono85",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "C[C@@H](NCCCCCCN)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono86",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CC(C)C[C@H](NCCCCCCN)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono87",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCCCCN[C@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono88",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN(CCCCCCN)[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono89",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCCCCCCN(CC(=O)O)Cc1ccccc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono90",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CNCCCCCCN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono91",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CC(=O)N(CCCCCCN)[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono92",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@H](CCCN)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono93",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@@H](CCCN)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono94",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@H](CCN)CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono95",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@@H](CCN)CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono96",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@@H](CN)CCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono97",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@H](CN)CCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono98",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@@H](N)CCCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono99",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@H](N)CCCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono100",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "C",
+    "smiles": "CNC(=O)[C@@H](N)CSCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono101",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "C",
+    "smiles": "CNC(=O)[C@H](CSCC(=O)O)NC",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono102",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "O=C(O)c1csc([C@@H]2CCCN2)n1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono103",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@H](c1nnc([C@@H](N)Cc2ccccc2)o1)N1CCC[C@H]1c1nc(C(=O)O)cs1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono104",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC(C)C[C@H](N)c1nc(C(=O)O)co1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono105",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@H](c1nnc([C@@H](N)Cc2ccc(O)cc2)o1)N1CCC[C@H]1c1nc(C(=O)O)cs1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono106",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "N[C@@H](Cc1ccccc1)c1nc(C(=O)O)co1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono107",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CC[C@@H](N[C@H](c1nc(C(=O)O)cs1)C(C)C)c1nnc([C@@H](N)Cc2ccccc2)o1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono108",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NC(=O)[C@@H](N)Cc1csc(C2=N[C@H](C(=O)O)CS2)c1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono109",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NC(=O)[C@@H](N)Cc1cc(C2=N[C@H](C(=O)O)CS2)cs1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono110",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NC(=O)[C@@H](N)Cc1cccc(C2=N[C@H](C(=O)O)CS2)c1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono111",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NC(=O)[C@@H](N)Cc1cncc(C2=N[C@H](C(=O)O)CS2)c1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono112",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NC(=O)[C@@H](N)CC1=N[C@H](C(=O)O)CS1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "ac",
+    "name": "N-Terminal acetic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "X",
+    "smiles": "CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "deca",
+    "name": "N-Terminal decanoic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "X",
+    "smiles": "CCCCCCCCCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "glyco",
+    "name": "N-Terminal glycolic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "G",
+    "smiles": "O=C(O)CO",
+    "rgroups": [
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "medl",
+    "name": "N-Terminal N-methyl-D-leucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "L",
+    "smiles": "CN[C@H](CC(C)C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "pip",
+    "name": "C-Terminal piperidine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "X",
+    "smiles": "C1CCNCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono21",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "X",
+    "smiles": "O=C/C=C/C=C/C(=O)O",
+    "rgroups": [
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono22",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "X",
+    "smiles": "CCC(C)/C=C(C)/C=C\\C(O)C(C)(O)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dW",
+    "name": "D-tryptophan",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "W",
+    "smiles": "N[C@H](Cc1c[nH]c2ccccc12)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ala_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "C[C@H](N)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dAla_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "C[C@@H](N)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1ccccc1)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ile_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "I",
+    "smiles": "CC[C@H](C)[C@H](N)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Lys_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "K",
+    "smiles": "NCCCC[C@H](N)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Leu_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CC(C)C[C@H](N)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dLeu_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CC(C)C[C@@H](N)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Pro_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "OC(=S)[C@@H]1CCCN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dPro_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "P",
+    "smiles": "OC(=S)[C@H]1CCCN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Thr_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "T",
+    "smiles": "C[C@@H](O)[C@H](N)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      },
+      {
+        "label": "R3",
+        "capGroupSmiles": "[*:3][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "dTrp_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "W",
+    "smiles": "N[C@H](Cc1c[nH]c2ccccc12)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Tyr_OtoS",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "Y",
+    "smiles": "N[C@@H](Cc1ccc(O)cc1)C(O)=S",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ac3c",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NC1(C(=O)O)CC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Abu_5_Tet",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "N[C@@H](CCc1nn[nH]n1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Gly_allyl",
+    "name": "L-allylglycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "C=CC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "pyrro",
+    "name": "C-Terminal pyrrolidine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "X",
+    "smiles": "C1CCNC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Aze",
+    "name": "L-azetidine-2-carboxylic acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "O=C(O)[C@@H]1CCN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Bal_d3_Me",
+    "name": "D-3-aminobutyric acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "C[C@@H](N)CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Bal_d3_Me",
+    "name": "N-methyl-D-3-aminobutyric acid",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "CN[C@H](C)CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Bal_d3_EtPh",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@H](CCc1ccccc1)CC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "meH",
+    "name": "N-methyl-L-histidine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "H",
+    "smiles": "CN[C@@H](Cc1c[nH]cn1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_3_Cl",
+    "name": "3-chloro-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1cccc(Cl)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_3_F",
+    "name": "3-fluoro-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1cccc(F)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_4_Cl",
+    "name": "4-chloro-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1ccc(Cl)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono113",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "C[C@H](CN)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ser_tBuOH",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CC(C)(O)COC[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Val_3_OH",
+    "name": "3-hydroxy-L-valine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CC(C)(O)[C@H](N)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono114",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CCNCCCC(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ac5c",
+    "name": "Cycloleucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NC1(C(=O)O)CCCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph_4_CF3,3,5_diF",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](CCc1cc(F)c(C(F)(F)F)c(F)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph_4_Me",
+    "name": "4-methyl-L-homophe",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "Cc1ccc(CC[C@H](N)C(=O)O)cc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_3,5_diCl",
+    "name": "3,5-dichloro-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1cc(Cl)cc(Cl)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph_4_CF3,3_Cl",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](CCc1ccc(C(F)(F)F)c(Cl)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Phe_4_Me",
+    "name": "N-methyl-4-methyl-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN[C@@H](Cc1ccc(C)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph_4_tBu",
+    "name": "4-tert-butyl-L-homophe",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CC(C)(C)c1ccc(CC[C@H](N)C(=O)O)cc1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph_3,4_diCl",
+    "name": "3,4-dichloro-L-homophe",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](CCc1ccc(Cl)c(Cl)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hch",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](CCC1CCCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_3_Cl,5_F",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1cc(F)cc(Cl)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Gly_cPent",
+    "name": "N-methyl-2-cyclopentyl-L-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CN[C@H](C(=O)O)C1CCCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Phe_3_CF3",
+    "name": "3-trifluoromethyl-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](Cc1cccc(C(F)(F)F)c1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Et_Phe_4_Me",
+    "name": "N-ethyl-4-methyl-L-phenylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CCN[C@@H](Cc1ccc(C)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Hph_4_CF3",
+    "name": "4-trifluoromethyl-L-homophe",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "N[C@@H](CCc1ccc(C(F)(F)F)cc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "nme2",
+    "name": "C-Terminal dimethylamine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "X",
+    "smiles": "CNC",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono115",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "C",
+    "smiles": "CCOC(=O)[C@H](CSCC(=O)O)NC",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Chg",
+    "name": "L-cyclohexylglycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "N[C@H](C(=O)O)C1CCCCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Chg",
+    "name": "N-methyl-L-cyclohexylglycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CN[C@H](C(=O)O)C1CCCCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Et_Leu",
+    "name": "N-ethyl-L-leucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "L",
+    "smiles": "CCN[C@@H](CC(C)C)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Ser_Me",
+    "name": "N,O-dimethyl-L-serine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CN[C@@H](COC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Hse_Me",
+    "name": "N,O-dimethyl-L-homoserine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "S",
+    "smiles": "CN[C@@H](CCOC)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Gly_cPr",
+    "name": "L-cyclopropylglycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "N[C@H](C(=O)O)C1CC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Gly_cPr",
+    "name": "N-methyl-L-cyclopropylglycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CN[C@H](C(=O)O)C1CC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Gly_cBu",
+    "name": "2-cyclobutyl-L-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "N[C@H](C(=O)O)C1CCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Gly_cBu",
+    "name": "N-methyl-2-cyclobutyl-L-glycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "CN[C@H](C(=O)O)C1CCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Gly_cPent",
+    "name": "L-cyclopentylglycine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "G",
+    "smiles": "N[C@H](C(=O)O)C1CCCC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ala_cPr",
+    "name": "L-cyclopropylalanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](CC1CC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ala_cBu",
+    "name": "3-cyclobutyl-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](CC1CCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Ala_cPent",
+    "name": "3-cyclopentane-L-alanine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "A",
+    "smiles": "N[C@@H](CC1CCCC1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Me_Nva_F2",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "V",
+    "smiles": "CN[C@@H](CCC(F)F)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "mor",
+    "name": "C-Terminal morpholineamide",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "X",
+    "smiles": "C1COCCN1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "aze",
+    "name": "C-Terminal azetidine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Terminal",
+    "naturalAnalog": "X",
+    "smiles": "C1CNC1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono116",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "CNCc1cn(CC(=O)O)nn1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono117",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCc1ccc(CN[C@@H](Cc2ccccc2)C(=O)O)[nH]1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono118",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN(Cc1ccc(CN)[nH]1)[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono119",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "Cn1c(CN)ccc1CN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono120",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCc1c[nH]c(CN[C@@H](Cc2ccccc2)C(=O)O)c1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono121",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "Cn1cc(CN)cc1CN[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono122",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "NCc1ccc(CN[C@@H](Cc2ccccc2)C(=O)O)o1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono123",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CN(Cc1ccc(CN)o1)[C@@H](Cc1ccccc1)C(=O)O",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono124",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CNCc1ccc(CN[C@@H](Cc2ccccc2)C(=O)O)o1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono125",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "F",
+    "smiles": "CNCc1ccc(CN(C)[C@@H](Cc2ccccc2)C(=O)O)o1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono126",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NCc1cccc(N(Cc2ccccc2[N+](=O)[O-])C(=O)c2cccc(C(=O)O)c2)c1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  },
+  {
+    "symbol": "Mono127",
+    "name": "N.D",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "naturalAnalog": "X",
+    "smiles": "NCc1cccc(NC(=O)c2cccc(C(=O)O)c2)c1",
+    "rgroups": [
+      {
+        "label": "R1",
+        "capGroupSmiles": "[*:1][H]"
+      },
+      {
+        "label": "R2",
+        "capGroupSmiles": "O[*:2]"
+      }
+    ],
+    "source": "CycPeptMPDB"
+  }
+]
