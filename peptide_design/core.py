@@ -26,7 +26,7 @@ def parse_row(row: dict) -> Compound:
         site_key = f"Site{suffix}"
         raw = str(row.get(site_key, "")).strip()
         if not raw:
-            break
+            continue
         site = int(raw)
         bonds, monomers = [], []
         k = 1

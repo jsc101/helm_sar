@@ -69,3 +69,13 @@ def test_parse_row_two_sidechains():
     assert len(c.sidechains) == 2
     assert c.sidechains[1].site == 6
     assert c.sidechains[1].monomers == ["Ado", "C12d"]
+
+def test_parse_row_sidechain_gap_skipped():
+    """Site absent but Site_2 present — should still find Site_2."""
+    row = {"Name": "gap"}
+    for i, aa in enumerate(list("IKPE"), 1):
+        row[str(i)] = aa
+    row.update({"Site_2": "3", "b1_2": "R3-R1", "SC1_2": "Ado"})
+    c = parse_row(row)
+    assert len(c.sidechains) == 1
+    assert c.sidechains[0].site == 3
