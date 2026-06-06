@@ -55,3 +55,62 @@ def test_fmt_single_char_monomer_no_brackets():
                          bonds=["R3-R1"], monomers=["G"])
     helm = generate_helm(c)
     assert "PEPTIDE2{G}" in helm
+
+# ── Expand tests ─────────────────────────────────────────────────────────────
+
+def test_expand_triggered_by_chem_monomer():
+    """Triazole14 is CHEM — forces expand path."""
+    c = _simple_compound(
+        ["A"] * 37,
+        site=37,
+        bonds=["R3-R1", "R3-R1", "R4-R3", "R2-R1", "R2-R1"],
+        monomers=["Hpg", "Triazole14", "Aha", "A", "C18d"],
+    )
+    helm = generate_helm(c)
+    assert "CHEM1{[Triazole14]}" in helm
+
+def test_expand_backbone_connection_uses_b1():
+    """PEPTIDE2 (Hpg) connects to PEPTIDE1 at site 37 via b1=R3-R1."""
+    c = _simple_compound(
+        ["A"] * 37,
+        site=37,
+        bonds=["R3-R1", "R3-R1", "R4-R3", "R2-R1", "R2-R1"],
+        monomers=["Hpg", "Triazole14", "Aha", "A", "C18d"],
+    )
+    helm = generate_helm(c)
+    assert "PEPTIDE2,PEPTIDE1,1:R1-37:R3" in helm
+
+def test_expand_triazole_connects_to_hpg():
+    """CHEM1 (Triazole14) connects to PEPTIDE2 (Hpg): b2=R3-R1."""
+    c = _simple_compound(
+        ["A"] * 37,
+        site=37,
+        bonds=["R3-R1", "R3-R1", "R4-R3", "R2-R1", "R2-R1"],
+        monomers=["Hpg", "Triazole14", "Aha", "A", "C18d"],
+    )
+    helm = generate_helm(c)
+    assert "CHEM1,PEPTIDE2,1:R1-1:R3" in helm
+
+def test_expand_aha_connects_to_triazole():
+    """PEPTIDE3 (Aha) connects to CHEM1 (Triazole14): b3=R4-R3."""
+    c = _simple_compound(
+        ["A"] * 37,
+        site=37,
+        bonds=["R3-R1", "R3-R1", "R4-R3", "R2-R1", "R2-R1"],
+        monomers=["Hpg", "Triazole14", "Aha", "A", "C18d"],
+    )
+    helm = generate_helm(c)
+    assert "PEPTIDE3,CHEM1,1:R3-1:R4" in helm
+
+def test_expand_non_default_bond_without_chem():
+    """Non-default bond (R3-R1 on b2) forces expand even for all-PEPTIDE."""
+    c = _simple_compound(
+        ["A","K"],
+        site=2,
+        bonds=["R3-R1", "R3-R1"],
+        monomers=["Hpg", "Aha"],
+    )
+    helm = generate_helm(c)
+    assert "PEPTIDE2{[Hpg]}" in helm
+    assert "PEPTIDE3{[Aha]}" in helm
+    assert "PEPTIDE3,PEPTIDE2,1:R1-1:R3" in helm
