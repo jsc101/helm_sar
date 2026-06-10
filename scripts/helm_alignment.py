@@ -198,6 +198,38 @@ def _mean_cosine(A: np.ndarray, B: np.ndarray) -> float:
     return float(np.mean(dots))
 
 
+def nw_align(ref_syms: list, query_syms: list,
+             match: float = 2.0, mismatch: float = 0.0,
+             gap: float = -1.5) -> tuple:
+    """
+    Global Needleman-Wunsch alignment of two monomer symbol sequences.
+    Returns (aligned_ref, aligned_query) — lists where None marks a gap.
+    Scores: same symbol = match, different = mismatch, insertion/deletion = gap.
+    """
+    n, m = len(ref_syms), len(query_syms)
+    dp = [[0.0] * (m + 1) for _ in range(n + 1)]
+    for i in range(n + 1): dp[i][0] = i * gap
+    for j in range(m + 1): dp[0][j] = j * gap
+    for i in range(1, n + 1):
+        for j in range(1, m + 1):
+            s = match if ref_syms[i-1] == query_syms[j-1] else mismatch
+            dp[i][j] = max(dp[i-1][j-1] + s, dp[i-1][j] + gap, dp[i][j-1] + gap)
+    ar, aq = [], []
+    i, j = n, m
+    while i > 0 or j > 0:
+        if i > 0 and j > 0:
+            s = match if ref_syms[i-1] == query_syms[j-1] else mismatch
+            if abs(dp[i][j] - (dp[i-1][j-1] + s)) < 1e-9:
+                ar.append(ref_syms[i-1]); aq.append(query_syms[j-1])
+                i -= 1; j -= 1; continue
+        if i > 0 and (j == 0 or abs(dp[i][j] - (dp[i-1][j] + gap)) < 1e-9):
+            ar.append(ref_syms[i-1]); aq.append(None); i -= 1
+        else:
+            ar.append(None); aq.append(query_syms[j-1]); j -= 1
+    ar.reverse(); aq.reverse()
+    return ar, aq
+
+
 # ---------------------------------------------------------------------------
 # Result type
 # ---------------------------------------------------------------------------

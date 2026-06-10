@@ -27,8 +27,6 @@ Activity data — Table 1 (CHO-hGLP-1R cAMP, EC50 pM):
 
 import csv
 import math
-import sys
-sys.path.insert(0, '.')
 
 from scripts.helm_parser import HELMParser
 
@@ -169,7 +167,7 @@ for r in rows:
 # ── Write CSV ─────────────────────────────────────────────────────────────────
 
 from pathlib import Path
-out = Path(__file__).parent / 'medi7219_sar.csv'
+out = Path(__file__).resolve().parent.parent / 'data' / 'medi7219_sar.csv'
 fields = ['Name', 'HELM', 'EC50_BSA_pM', 'pEC50_BSA', 'EC50_HSA_pM', 'pEC50_HSA',
           'Lipidation', 'Alpha_methyl_count']
 

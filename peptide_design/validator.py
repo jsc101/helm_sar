@@ -1,7 +1,4 @@
 from __future__ import annotations
-import sys
-from pathlib import Path
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from scripts.helm_parser import HELMParser
 from monomer_db.monomer_db import MonomerDB

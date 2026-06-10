@@ -9,14 +9,7 @@ synonyms and D/L naming differences between databases.
 
 from __future__ import annotations
 
-import sys
-from pathlib import Path
 from typing import Optional
-
-# Ensure repo root is importable when run directly
-_REPO_ROOT = Path(__file__).parent.parent
-if str(_REPO_ROOT) not in sys.path:
-    sys.path.insert(0, str(_REPO_ROOT))
 
 from monomer_db.monomer_db import MonomerDB
 

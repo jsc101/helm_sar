@@ -11,36 +11,12 @@ Usage:
 from __future__ import annotations
 import argparse
 import csv
-import sys
 from pathlib import Path
-
-sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from peptide_design.core import parse_row
 from peptide_design.generator import generate_helm
 from peptide_design.validator import validate_helm
-
-
-def _read_csv(path: Path) -> tuple[list[str], list[dict]]:
-    with open(path, newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        rows = list(reader)
-        headers = list(reader.fieldnames or [])
-    return headers, rows
-
-
-def _read_xlsx(path: Path) -> tuple[list[str], list[dict]]:
-    import openpyxl
-    wb = openpyxl.load_workbook(path, data_only=True)
-    ws = wb.active
-    rows_iter = ws.iter_rows(values_only=True)
-    headers = [str(h) if h is not None else "" for h in next(rows_iter)]
-    rows = []
-    for row in rows_iter:
-        if all(v is None for v in row):
-            continue
-        rows.append({h: (str(v).strip() if v is not None else "") for h, v in zip(headers, row)})
-    return headers, rows
+from scripts.table_io import read_table
 
 
 def process(rows: list[dict]) -> list[dict]:
@@ -72,10 +48,7 @@ def main(argv=None):
     args = p.parse_args(argv)
 
     path = Path(args.input)
-    if path.suffix.lower() in (".xlsx", ".xlsm"):
-        headers, rows = _read_xlsx(path)
-    else:
-        headers, rows = _read_csv(path)
+    headers, rows = read_table(path)
 
     results = process(rows)
 

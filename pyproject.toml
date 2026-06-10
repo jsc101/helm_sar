@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helm-sar"
+version = "0.1.0"
+description = "HELM peptide SAR report pipeline and Excel-to-HELM design tool"
+requires-python = ">=3.9"
+dependencies = [
+    "rdkit",
+    "numpy",
+    "matplotlib",
+    "numbers-parser",
+    "openpyxl",
+]
+
+[project.scripts]
+helm-sar = "run_sar:main"
+
+[tool.setuptools]
+packages = ["scripts", "peptide_design", "monomer_db", "sar_report"]
+py-modules = ["run_sar"]
+
+[tool.setuptools.package-data]
+monomer_db = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]

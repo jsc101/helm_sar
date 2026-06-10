@@ -7,6 +7,8 @@ Fig 2a: half-life vs lipidation position in PYY3-36 (C18 diacid-gGlu-2xAdo)
 Fig 2b: half-life vs fatty acid length ± γGlu, fixed at position 30
 """
 
+from pathlib import Path
+
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import numpy as np
@@ -198,8 +200,9 @@ ax2.legend(handles=legend_patches, title='Fatty acid', loc='upper left',
 
 # ── SAVE ─────────────────────────────────────────────────────────────────────────
 
-out_png = '/Users/claudedev/Projects/helm_sar/data/pyy_fig2_halflives.png'
-out_pdf = '/Users/claudedev/Projects/helm_sar/data/pyy_fig2_halflives.pdf'
+_data_dir = Path(__file__).resolve().parent.parent / 'data'
+out_png = str(_data_dir / 'pyy_fig2_halflives.png')
+out_pdf = str(_data_dir / 'pyy_fig2_halflives.pdf')
 
 fig.suptitle('Østergaard et al. 2021 — PYY₃₋₃₆ lipidation SAR (recreated)',
              fontsize=11, y=1.01, color='#444444')

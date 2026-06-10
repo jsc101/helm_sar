@@ -35,7 +35,8 @@ See `AGENTS.md` for full agent instructions.
 ### Quickstart
 
 ```bash
-pip install -r requirements.txt
+pip install -e .          # editable install (preferred — makes scripts/, sar_report/ importable)
+# or: pip install -r requirements.txt
 
 # Generate a report
 python run_sar.py --input library.csv --activity IC50_nM
@@ -160,14 +161,22 @@ helm_sar/
 ├── peptide_design_template.xlsx  ← Ready-to-use Excel (Design/HELM/MonomerDB/Example sheets)
 ├── helm_builder.bas              ← VBA macro (same algorithm, standalone in Excel)
 │
-├── scripts/                      ← SAR report engine
+├── scripts/                      ← Shared HELM engine primitives
 │   ├── helm_parser.py            HELM V2 string → HELMObject
 │   ├── helm_engine.py            HELMObject — query methods (get_jpv_flat, get_lipidation_pos…)
-│   ├── helm_alignment.py         Cosine rotation alignment + Needleman-Wunsch
+│   ├── helm_alignment.py         Cosine rotation alignment + Needleman-Wunsch (nw_align)
 │   ├── helm_compare.py           Structural identity
 │   ├── residue_colors.py         Zappo + charge/LogP colour schemes
 │   ├── rdkit_bridge.py           RDKit descriptor calculation
-│   └── report.py                 HTML report generator (build_data, build_html)
+│   └── table_io.py               Unified csv/tsv/xlsx/numbers reader (read_table)
+│
+├── sar_report/                   ← SAR report generator package
+│   ├── pipeline.py               build_data — aligned row set from (name, HELM) pairs
+│   ├── html.py                   build_html — interactive self-contained HTML
+│   ├── columns.py                NW projection onto shared master column layout
+│   ├── flatten.py / mw.py        Main-chain flattening + MW calculation
+│   ├── colors.py / plots.py      Charge/LogP colours + embedded scatter plots
+│   └── assets.py                 CSS / JS strings
 │
 ├── monomer_db/                   ← Shared by both tools
 │   ├── monomer_db.py             MonomerDB class — symbol/SMILES lookup
@@ -175,12 +184,18 @@ helm_sar/
 │   ├── custom_monomers.json      Aib, aMePhe, Triazole14, gGlu, Ado, C12d–C20d…
 │   └── cycpeptmpdb_monomers.json CycPeptMPDB non-proteinogenic residues
 │
-├── data/                         ← Step-1 extraction outputs
-│   ├── pyy_lipidation_scan.csv   PYY3-36 lipidation scan (52 analogs)
-│   ├── medi7219_sar.csv          GLP-1 / MEDI7219 series (5 compounds)
-│   └── *.html                    Generated SAR reports
+├── examples/                     ← Paper-replication scripts (write CSVs/figures into data/)
+│   ├── pyy_lipidation_scan.py    Generates data/pyy_lipidation_scan.csv (52 analogs)
+│   ├── medi7219_sar.py           Generates data/medi7219_sar.csv (5 compounds)
+│   └── pyy_figures.py            Recreates Østergaard 2021 Fig 2 PNG/PDF
 │
-└── tests/peptide_design/         ← 30 tests (core, generator, validator, PYY integration)
+├── data/                         ← Sample library inputs (generated reports are gitignored)
+│   ├── pyy_lipidation_scan.csv   PYY3-36 lipidation scan (52 analogs)
+│   └── medi7219_sar.csv          GLP-1 / MEDI7219 series (5 compounds)
+│
+└── tests/                        ← 43 tests
+    ├── peptide_design/           core, generator, validator, PYY integration
+    └── scripts/                  SAR engine safety-net + table_io reader
 ```
 
 ## Custom monomers

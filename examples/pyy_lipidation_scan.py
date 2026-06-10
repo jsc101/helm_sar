@@ -209,7 +209,7 @@ for (no, bk_mods, sc_pos, ec50, hl, label) in backbone_mods:
     })
 
 # ── Write CSV ────────────────────────────────────────────────────────────────────
-out = Path(__file__).parent / 'pyy_lipidation_scan.csv'
+out = Path(__file__).resolve().parent.parent / 'data' / 'pyy_lipidation_scan.csv'
 fields = ['Name', 'HELM', 'Y2R_EC50_nM', 'HalfLife_h', 'pEC50_Y2R', 'Group', 'PYY_pos', 'Protractor']
 
 with open(out, 'w', newline='') as f:

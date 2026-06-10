@@ -150,7 +150,7 @@ obj = HELMParser.parse(helm_string)   # Never pass db= kwarg; not supported
 
 `obj.get_jpv_flat()` returns a **flat token list** with sidechain monomers inserted after
 their backbone attachment position, reading **outward from the backbone**.  
-`_per_pos_syms(obj)` in `scripts/report.py` is a thin wrapper that returns just the symbols.
+`main_chain_syms(obj)` in `sar_report/flatten.py` is a thin wrapper that returns just the main-chain symbols.
 
 For the GLP-1 analog above (PEPTIDE2 attaches at K pos 20):
 ```
@@ -238,7 +238,7 @@ Pass `--max-rows` and `--min-identity` to `run_sar.py` to override the defaults.
 ## MW Calculation
 
 ```python
-from scripts.report import calc_mw
+from sar_report import calc_mw
 mw = calc_mw(obj)  # float | None
 ```
 
@@ -371,7 +371,7 @@ Standard sidechain reading order (backbone → distal end): `gGlu → Ado → Ad
 
 ## Scatter Plots in the Report
 
-`build_html()` calls `_make_scatter_plots(rows, activity_map, act_label)` which generates
+`build_html()` calls `make_scatter_plots(rows, activity_map, act_label)` (`sar_report/plots.py`) which generates
 two embedded PNG plots (base64, rendered inline):
 
 1. **Activity vs. lipidation position** — x = `obj.get_lipidation_pos()` + 2 (PYY numbering),
@@ -454,10 +454,10 @@ python run_sar.py --input library.csv --ref "Compound_1"
 
 ### Use as a library in Python
 ```python
-import sys; sys.path.insert(0, '.')
+# requires `pip install -e .` from the repo root
 from monomer_db.monomer_db import MonomerDB
 from scripts.helm_parser import HELMParser
-from scripts.report import build_data, build_html
+from sar_report import build_data, build_html
 
 db = MonomerDB(extra_sources=['monomer_db/cycpeptmpdb_monomers.json'])
 pairs = [('Parent', 'PEPTIDE1{A.K.G.F}$PEPTIDE1,PEPTIDE1,1:R1-4:R2$$$V2.0'),
@@ -532,17 +532,19 @@ When reading the HTML report, look for:
 ```
 helm_sar/
 ├── run_sar.py              ← Entry point; run this
+├── pyproject.toml          ← Package metadata (pip install -e .)
 ├── AGENTS.md               ← This file
 ├── README.md               ← Human quickstart
 ├── requirements.txt        ← Python dependencies
 ├── scripts/
 │   ├── helm_engine.py      ← HELMObject data structure
 │   ├── helm_parser.py      ← HELM V2 → HELMObject
-│   ├── helm_alignment.py   ← Cosine rotation alignment + NW
+│   ├── helm_alignment.py   ← Cosine rotation alignment + NW (nw_align)
 │   ├── helm_compare.py     ← Structural identity check
 │   ├── residue_colors.py   ← Zappo + charge/LogP colour schemes
 │   ├── rdkit_bridge.py     ← RDKit descriptor calculation
-│   └── report.py           ← HTML report generator (build_data, build_html)
+│   └── table_io.py         ← Unified csv/tsv/xlsx/numbers reader (read_table)
+├── sar_report/             ← HTML report generator (build_data, build_html, calc_mw)
 └── monomer_db/
     ├── monomer_db.py       ← MonomerDB class
     ├── HELMCoreLibrary.json    ← Standard HELM monomers

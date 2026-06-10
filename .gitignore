@@ -4,3 +4,8 @@ __pycache__/
 .DS_Store
 *.pyc
 *_helm.csv
+
+# Generated report/figure artifacts (regenerable from examples/)
+data/*.html
+data/*.png
+data/*.pdf

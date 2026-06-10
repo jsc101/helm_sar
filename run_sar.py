@@ -37,17 +37,16 @@ Example CSV
 from __future__ import annotations
 
 import sys
-import os
 import argparse
 import logging
 import subprocess
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).parent))
 logging.disable(logging.WARNING)
 
 from monomer_db.monomer_db import MonomerDB
-from scripts.report import build_data, build_html
+from scripts.table_io import read_table
+from sar_report import build_data, build_html
 
 _CYCPEPT_JSON = Path(__file__).parent / 'monomer_db' / 'cycpeptmpdb_monomers.json'
 
@@ -63,84 +62,6 @@ def _is_ref_name(name: str) -> bool:
     return any(k in n for k in _ref_keywords())
 
 
-def read_csv(path: str, activity_col: str | None) -> tuple[list[tuple], dict]:
-    import csv
-    pairs, activity = [], {}
-    with open(path, newline='', encoding='utf-8-sig') as fh:
-        reader = csv.DictReader(fh)
-        headers = reader.fieldnames or []
-        name_col = _find_col(headers, ['name', 'id', 'compound', 'cmpd'])
-        helm_col = _find_col(headers, ['helm', 'helm_string', 'sequence'])
-        act_col  = _find_col(headers, [activity_col] if activity_col else []) if activity_col else None
-        for row in reader:
-            name = row.get(name_col, '').strip()
-            helm = row.get(helm_col, '').strip()
-            if helm and 'PEPTIDE' in helm:
-                pairs.append((name, helm))
-                if act_col and act_col in row:
-                    v = row[act_col].strip()
-                    try:
-                        activity[name] = float(v)
-                    except ValueError:
-                        activity[name] = v or None
-    return pairs, activity
-
-
-def read_excel(path: str, activity_col: str | None) -> tuple[list[tuple], dict]:
-    import openpyxl
-    wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
-    ws = wb.active
-    rows = list(ws.iter_rows(values_only=True))
-    if not rows:
-        return [], {}
-    headers = [str(h).strip() if h else '' for h in rows[0]]
-    name_col = _find_col_idx(headers, ['name', 'id', 'compound', 'cmpd'])
-    helm_col = _find_col_idx(headers, ['helm', 'helm_string', 'sequence'])
-    act_col  = _find_col_idx(headers, [activity_col] if activity_col else []) if activity_col else None
-    pairs, activity = [], {}
-    for row in rows[1:]:
-        name = str(row[name_col]).strip() if name_col is not None and row[name_col] else ''
-        helm = str(row[helm_col]).strip() if helm_col is not None and row[helm_col] else ''
-        if helm and 'PEPTIDE' in helm:
-            pairs.append((name, helm))
-            if act_col is not None and act_col < len(row) and row[act_col] is not None:
-                v = row[act_col]
-                try:
-                    activity[name] = float(v)
-                except (TypeError, ValueError):
-                    activity[name] = str(v) if v else None
-    return pairs, activity
-
-
-def read_numbers(path: str, activity_col: str | None) -> tuple[list[tuple], dict]:
-    from numbers_parser import Document
-    doc = Document(path)
-    sheets = {s.name: s for s in doc.sheets}
-    # prefer HELM_Builder sheet; fall back to first sheet
-    sheet = sheets.get('HELM_Builder') or doc.sheets[0]
-    table = sheet.tables[0]
-    all_rows = list(table.rows())
-    if not all_rows:
-        return [], {}
-    headers = [str(c.value).strip() if c.value else '' for c in all_rows[0]]
-    name_col = _find_col_idx(headers, ['name', 'id', 'compound', 'cmpd'])
-    helm_col = _find_col_idx(headers, ['helm', 'helm_string', 'sequence'])
-    act_col  = _find_col_idx(headers, [activity_col] if activity_col else []) if activity_col else None
-    pairs, activity = [], {}
-    for row in all_rows[1:]:
-        name = str(row[name_col].value).strip() if name_col is not None and row[name_col].value else ''
-        helm = str(row[helm_col].value).strip() if helm_col is not None and len(row) > helm_col and row[helm_col].value else ''
-        if helm and 'PEPTIDE' in helm:
-            pairs.append((name, helm))
-            if act_col is not None and act_col < len(row) and row[act_col].value is not None:
-                v = row[act_col].value
-                try:
-                    activity[name] = float(v)
-                except (TypeError, ValueError):
-                    activity[name] = str(v) if v else None
-    return pairs, activity
-
-
 def _find_col(headers: list[str], candidates: list[str]) -> str | None:
     hl = [h.lower() for h in headers]
     for c in candidates:
@@ -150,25 +71,24 @@ def _find_col(headers: list[str], candidates: list[str]) -> str | None:
     return None
 
 
-def _find_col_idx(headers: list[str], candidates: list[str]) -> int | None:
-    hl = [h.lower() for h in headers]
-    for c in candidates:
-        for i, h in enumerate(hl):
-            if c.lower() in h:
-                return i
-    return None
-
-
 def read_input(path: str, activity_col: str | None) -> tuple[list[tuple], dict]:
-    p = path.lower()
-    if p.endswith('.csv') or p.endswith('.tsv'):
-        return read_csv(path, activity_col)
-    if p.endswith('.xlsx') or p.endswith('.xls'):
-        return read_excel(path, activity_col)
-    if p.endswith('.numbers'):
-        return read_numbers(path, activity_col)
-    # try CSV as default
-    return read_csv(path, activity_col)
+    headers, rows = read_table(path)
+    name_col = _find_col(headers, ['name', 'id', 'compound', 'cmpd'])
+    helm_col = _find_col(headers, ['helm', 'helm_string', 'sequence'])
+    act_col  = _find_col(headers, [activity_col]) if activity_col else None
+    pairs, activity = [], {}
+    for row in rows:
+        name = (row.get(name_col) or '').strip() if name_col else ''
+        helm = (row.get(helm_col) or '').strip() if helm_col else ''
+        if helm and 'PEPTIDE' in helm:
+            pairs.append((name, helm))
+            if act_col:
+                v = (row.get(act_col) or '').strip()
+                try:
+                    activity[name] = float(v)
+                except ValueError:
+                    activity[name] = v or None
+    return pairs, activity
 
 
 # ── Main ─────────────────────────────────────────────────────────────────────────

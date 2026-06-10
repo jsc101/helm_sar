@@ -10,14 +10,7 @@ Sections are split on '$'.  Sections 2, 3, 4 are ignored.
 from __future__ import annotations
 
 import re
-import sys
-import os
-from pathlib import Path
 from typing import Optional
-
-# Make monomer_db importable when running from repo root
-_REPO_ROOT = Path(__file__).parent.parent
-sys.path.insert(0, str(_REPO_ROOT))
 
 from monomer_db.monomer_db import MonomerDB
 from scripts.helm_engine import HELMObject

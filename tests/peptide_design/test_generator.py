@@ -1,6 +1,3 @@
-import sys, pathlib
-sys.path.insert(0, str(pathlib.Path(__file__).parent.parent.parent))
-
 from peptide_design.core import Compound, Sidechain
 from peptide_design.generator import generate_helm
 
