@@ -12,38 +12,38 @@
   },
   {
     "symbol": "Aha",
-    "name": "L-Azidohomoalanine",
+    "name": "L-Azidohomoalanine (post-click form: R3 marks N1–CH2 bond to Triazole14:R1)",
     "polymerType": "PEPTIDE",
     "monomerType": "Backbone",
-    "smiles": "[*:1]N[C@@H](CC[N-][N+]#N)C(=O)[*:2]",
+    "smiles": "[*:1]N[C@@H](CC[*:3])C(=O)[*:2]",
     "rgroups": [
       {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus"},
       {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"},
-      {"label": "R3", "capGroupSmiles": "[H]", "description": "Azide N — click handle → Triazole14:R1"}
+      {"label": "R3", "capGroupSmiles": "[H]", "description": "Azide-N sidechain end → Triazole14:R1"}
     ]
   },
   {
     "symbol": "Hpg",
-    "name": "L-Homopropargylglycine",
+    "name": "L-Homopropargylglycine (post-click form: R3 marks C4–CH2 bond to Triazole14:R2)",
     "polymerType": "PEPTIDE",
     "monomerType": "Backbone",
-    "smiles": "[*:1]N[C@@H](CCC#C)C(=O)[*:2]",
+    "smiles": "[*:1]N[C@@H](CCC[*:3])C(=O)[*:2]",
     "rgroups": [
       {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus"},
       {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"},
-      {"label": "R3", "capGroupSmiles": "[H]", "description": "Alkyne C — click handle → Triazole14:R2"}
+      {"label": "R3", "capGroupSmiles": "[H]", "description": "Alkyne sidechain end (C4) → Triazole14:R2"}
     ]
   },
   {
     "symbol": "Pra",
-    "name": "L-Propargylglycine (shorter alkyne handle)",
+    "name": "L-Propargylglycine (post-click form: R3 marks C4–CH2 bond to Triazole14:R2)",
     "polymerType": "PEPTIDE",
     "monomerType": "Backbone",
-    "smiles": "[*:1]N[C@@H](CC#C)C(=O)[*:2]",
+    "smiles": "[*:1]N[C@@H](C[*:3])C(=O)[*:2]",
     "rgroups": [
       {"label": "R1", "capGroupSmiles": "[H]", "description": "N-terminus"},
       {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"},
-      {"label": "R3", "capGroupSmiles": "[H]", "description": "Alkyne C — click handle → Triazole14:R2"}
+      {"label": "R3", "capGroupSmiles": "[H]", "description": "Alkyne sidechain end (C4, 1-carbon chain) → Triazole14:R2"}
     ]
   },
   {
@@ -188,6 +188,50 @@
     "rgroups": [
       {"label": "R1", "capGroupSmiles": "[H]", "description": "amine attachment to linker"},
       {"label": "R2", "capGroupSmiles": "[OH]", "description": "free distal COOH (diacid)"}
+    ]
+  },
+  {
+    "symbol": "Sar",
+    "name": "Sarcosine (N-methylglycine)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]N(C)CC(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-methyl N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
+    ]
+  },
+  {
+    "symbol": "MeLeu",
+    "name": "N-methyl-L-leucine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]N(C)[C@@H](CC(C)C)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-methyl N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
+    ]
+  },
+  {
+    "symbol": "MeVal",
+    "name": "N-methyl-L-valine",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "[*:1]N(C)[C@@H](C(C)C)C(=O)[*:2]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-methyl N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
+    ]
+  },
+  {
+    "symbol": "MeBmt",
+    "name": "N-methyl-(4R)-4-[(E)-2-butenyl]-4-methyl-L-threonine (cyclosporin A residue 1)",
+    "polymerType": "PEPTIDE",
+    "monomerType": "Backbone",
+    "smiles": "C/C=C/C[C@@H](C)[C@@H](O)[C@@H](C(=O)[*:2])N(C)[*:1]",
+    "rgroups": [
+      {"label": "R1", "capGroupSmiles": "[H]", "description": "N-methyl N-terminus"},
+      {"label": "R2", "capGroupSmiles": "[OH]", "description": "C-terminus"}
     ]
   }
 ]

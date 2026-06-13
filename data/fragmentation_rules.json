@@ -1,0 +1,105 @@
+{
+  "version": "0.1",
+  "description": "Layered fragmentation rules for SMILES→HELM. Rules within a layer are applied in priority order (higher first). Lower layer numbers run first.",
+  "rules": [
+    {
+      "id": "backbone_amide",
+      "layer": 1,
+      "priority": 100,
+      "status": "active",
+      "description": "Fragment backbone amide N-C(=O) bonds. N must be secondary (D2, standard NH) or N-methyl tertiary (D3) to exclude primary sidechain amides (Asn/Gln NH2, degree 1).",
+      "type": "fragment",
+      "smarts": "[N;D2,D3]-[C;X3](=[O;X1])",
+      "action": "cut",
+      "r_assignment": {"N_side": "R1", "C_side": "R2"},
+      "validated_on": ["gramicidin_s", "cyclosporin_a", "glp1_736", "pyy3_36"],
+      "notes": "Core rule. Implemented in _find_backbone_amide_bonds(). D2/D3 filter is the key exclusion."
+    },
+    {
+      "id": "disulfide_r3",
+      "layer": 2,
+      "priority": 90,
+      "status": "active",
+      "description": "Detect S-S bonds within backbone fragments and split each into individual Cys monomers, assigning [*:3] to each sulfur dummy. The S-S position becomes a HELM connection line (e.g. 3:R3-14:R3).",
+      "type": "fragment",
+      "smarts": "[S:1]-[S:2]",
+      "action": "split_and_assign_r3",
+      "r_assignment": {"S1": "R3", "S2": "R3"},
+      "validated_on": ["somatostatin_14", "octreotide", "pramlintide"],
+      "notes": "Two-pass: backbone amide cut first, then _split_disulfide() cuts any S-S bonds within resulting fragments. r3_partners tuple tracks pairing for HELM connection line generation."
+    },
+    {
+      "id": "click_triazole_r3",
+      "layer": 2,
+      "priority": 80,
+      "status": "active",
+      "description": "CuAAC 1,4-triazole: detect ring via SMARTS [n;r5;X3:1]1[n;r5;X2][n;r5;X2][c;r5;X3:4][c;r5;H1]1. Cut N1–C(Aha) and C4–C(Hpg) exocyclic bonds. Triazole becomes CHEM1{[Triazole14]}; Aha and Hpg get R3; HELM emits PEPTIDE1,CHEM1 cross-chain connections.",
+      "type": "fragment",
+      "smarts": "[n;r5;X3:1]1[n;r5;X2][n;r5;X2][c;r5;X3:4][c;r5;H1]1",
+      "action": "split_triazole_and_assign_chem",
+      "monomer_symbol": "Triazole14",
+      "validated_on": ["aha_hpg_cuaac"],
+      "notes": "Two-pass: backbone amide cut first, then _split_triazole() on any fragment containing a 1,4-triazole. isotope-label convention: dummy isotope = atom index of removed partner. DB entries for Aha/Hpg/Pra updated to post-click R3 form."
+    },
+    {
+      "id": "ester_backbone",
+      "layer": 2,
+      "priority": 70,
+      "status": "planned",
+      "description": "Depsipeptide ester bond O-C(=O) in backbone. Cut like amide but O-side gets R1 (hydroxyl acid monomer), C-side gets R2.",
+      "type": "fragment",
+      "smarts": "[O;D2]-[C;X3](=[O;X1])",
+      "action": "cut",
+      "r_assignment": {"O_side": "R1", "C_side": "R2"},
+      "validated_on": [],
+      "notes": "Needed for depsipeptides (e.g. kahalalide F). Not encountered yet."
+    },
+    {
+      "id": "gglu_gamma_r3",
+      "layer": 3,
+      "priority": 70,
+      "status": "planned",
+      "description": "gamma-Glutamate: alpha-N=R1, alpha-COO=R2, gamma-COO=R3. Prevents gamma sidechain COOH being misassigned as R2 backbone terminus.",
+      "type": "r_correction",
+      "smarts": "[NH,N]([*:1])[C@@H](CCC(=O)O)C(=O)[*:2]",
+      "action": "add_r3_to_gamma_cooh",
+      "validated_on": [],
+      "notes": "Critical for GLP-1 protraction linkers (Semaglutide, Liraglutide). gGlu already in DB — rule ensures correct fragmentation."
+    },
+    {
+      "id": "lys_epsilon_r3",
+      "layer": 3,
+      "priority": 60,
+      "status": "active",
+      "description": "Lysine epsilon-amine: add [*:3] to epsilon-NH2 so fragment matches DB entry with R3. Currently handled via _try_add_r3() in smiles_to_helm.py.",
+      "type": "r_promotion",
+      "smarts": "[N;H2;D1]",
+      "action": "add_r3_dummy",
+      "validated_on": ["glp1_736", "pyy3_36"],
+      "notes": "Implemented. Covers Lys, Orn, Dab, Dap (all free sidechain primary amines)."
+    },
+    {
+      "id": "cys_thiol_r3",
+      "layer": 3,
+      "priority": 60,
+      "status": "active",
+      "description": "Free cysteine thiol: add [*:3] to -SH so fragment matches DB entry with R3. Currently handled via _try_add_r3().",
+      "type": "r_promotion",
+      "smarts": "[S;H1;D1]",
+      "action": "add_r3_dummy",
+      "validated_on": [],
+      "notes": "Implemented. Only fires when Cys is NOT in a disulfide (free thiol)."
+    }
+  ],
+  "layer_descriptions": {
+    "1": "Universal — always applied. Defines where to cut.",
+    "2": "Bond-type — special covalent connections (S-S, click, ester). Annotate or cut non-amide bonds.",
+    "3": "Linkage-specific — correct R-group assignments for known chemistry patterns.",
+    "4": "Terminal — handle chain ends (N-cap, C-amide, alcohol termini). Not yet formalised."
+  },
+  "consolidation_rules": [
+    "A new Layer 3 rule must not conflict with any existing Layer 3 rule on the same SMARTS match.",
+    "A new Layer 2 rule must be validated against all ground_truth.json entries before activation.",
+    "When a rule is superseded by a more general rule, set status=deprecated and add superseded_by field."
+  ]
+}

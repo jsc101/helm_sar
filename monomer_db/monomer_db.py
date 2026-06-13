@@ -67,6 +67,13 @@ def _canonicalise(smiles: str, stereo: bool = True) -> Optional[tuple[str, int]]
 
     if not stereo:
         Chem.RemoveStereochemistry(mol)
+        # Normalise tautomers in the stereo-free index so that, e.g., the two
+        # imidazole tautomers of His (c1cnc[nH]1 vs c1c[nH]cn1) share one key.
+        try:
+            from rdkit.Chem.MolStandardize import rdMolStandardize
+            mol = rdMolStandardize.TautomerEnumerator().Canonicalize(mol)
+        except Exception:
+            pass  # fall back to non-normalised form if unavailable
 
     canon = Chem.MolToSmiles(mol)
     return canon, n_rgroups
@@ -355,6 +362,30 @@ class MonomerDB:
         if entry is None:
             return []
         return entry.get("rgroups", [])
+
+    def register(self, entry: dict) -> None:
+        """Add a monomer entry to the live in-memory indices.
+
+        Intended for auto-discovered monomers during SMILES→HELM fragmentation.
+        The entry must have at minimum a ``symbol`` and ``smiles`` key; ``rgroups``
+        defaults to R1+R2 if absent.  Changes are not persisted to disk.
+        """
+        entry = dict(entry)
+        entry.setdefault('polymerType', 'PEPTIDE')
+        entry.setdefault('monomerType', 'Backbone')
+        entry.setdefault('rgroups', [
+            {'label': 'R1', 'capGroupSmiles': '[H]',  'description': 'N-terminus'},
+            {'label': 'R2', 'capGroupSmiles': '[OH]', 'description': 'C-terminus'},
+        ])
+        self._by_symbol[entry['symbol']] = entry
+        smiles = entry.get('smiles', '')
+        if smiles:
+            key = _canonicalise(smiles, stereo=True)
+            if key and key not in self._index:
+                self._index[key] = entry
+            key_ns = _canonicalise(smiles, stereo=False)
+            if key_ns and key_ns not in self._index_nostereo:
+                self._index_nostereo[key_ns] = entry
 
     def __len__(self) -> int:
         return len(self._by_symbol)

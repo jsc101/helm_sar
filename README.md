@@ -1,9 +1,10 @@
 # HELM SAR Toolkit
 
-Two complementary tools for HELM-encoded peptide work:
+Three complementary tools for HELM-encoded peptide work:
 
 - **SAR Report pipeline** — extract a paper into a HELM library, then generate an interactive HTML alignment + activity report
 - **Peptide Design tool** — author new compounds in a flat Excel grid and generate valid HELM strings with correct sidechain connectivity
+- **SMILES → HELM engine** — convert any peptide structure (from PubChem, CRO, ChEMBL) into a HELM string with full monomer coverage
 
 ---
 
@@ -143,6 +144,89 @@ The user writes the same format either way; the tool decides.
 
 ---
 
+---
+
+## Tool 3: SMILES → HELM (Fragmentation Engine)
+
+### Two entry points, one canonical output
+
+```
+ATOMISTIC entry                        SEQUENCE entry
+(have a molecule drawing)              (have a name list)
+SMILES from PubChem / CRO / ChEMBL    Abu.Sar.MeLeu.V  (chemist-authored)
+         │                                      │
+         ▼                                      ▼
+  Fragment molecule                      Parse code list
+  at backbone amide bonds                look up each name in DB
+         │                                      │
+         └──────────────┬─────────────────────┘
+                        │
+              Monomer DB lookup (stereo → nostereo → R3-promoted → tautomer)
+                        │
+              ┌─────────┴──────────────────┐
+              │                            │
+        All known                    Unknown fragment
+              │                            │
+              │                    UNK_a3f9c2  (content-addressed hash)
+              │                    written to data/pending_monomers.json
+              │                    ← same structure → same symbol, every run
+              │                            │
+              └──────────────┬─────────────┘
+                             │
+                    HELM string + SMILES + pending list
+```
+
+### Quickstart
+
+```bash
+# Score a novel SMILES against the current rule set
+python scripts/reckoning.py --new "CC[C@H](C)..." --name "MyPeptide"
+
+# Run full validation against curated ground-truth pairs
+python scripts/reckoning.py
+
+# Show rule-set health (active vs planned rules)
+python scripts/reckoning.py --rules
+```
+
+### Coverage status (ground truth benchmark)
+
+| Compound | Residues | Coverage | Notes |
+|---|---|---|---|
+| Gramicidin S | 10 | 100% | PubChem CID 73357, head-to-tail cyclic |
+| Cyclosporin A | 11 | 100% | PubChem CID 5284373, N-methyl AAs |
+| GLP-1 (7-36) | 30 | 100% | Standard AAs, linear |
+| PYY3-36 | 34 | 100% | Standard AAs, linear |
+| Exenatide | 39 | 100% | PubChem CID 45588096, linear |
+| Somatostatin-14 | 14 | 100% | Disulfide bridge (Layer 2a active) |
+| Octreotide | 8 | 100% | Disulfide bridge (Layer 2a active) |
+| Pramlintide | 37 | 100% | Disulfide bridge (Layer 2a active) |
+| Aha–Hpg CuAAC macrolactam | 3 | 100% | Click triazole staple (Layer 2b active) |
+
+### Pending monomer workflow
+
+Unknown fragments are auto-assigned content-addressed symbols (`UNK_a3f9c2`) and
+logged to `data/pending_monomers.json`. Chemist fills in `assigned_symbol` and
+`name`, adds the entry to `custom_monomers.json`, then re-runs. All HELM strings
+containing that `UNK_*` are updated retroactively.
+
+### Fragmentation rule library
+
+Rules are encoded in `data/fragmentation_rules.json` and layered by specificity:
+
+| Layer | Type | Status |
+|---|---|---|
+| 1 | Backbone amide (D2/D3 N-C=O) | Active |
+| 2a | Disulfide S-S bridge | Active |
+| 2b | Click chemistry (CuAAC 1,4-triazole) | Active |
+| 2c | Depsipeptide ester bond | Planned |
+| 3 | Sidechain primary amine/thiol → R3 (Lys, Cys…) | Active |
+| 3 | Sidechain COOH → R3 (Asp, Glu) | Active |
+| 3 | Terminal cap promotion (N/C termini) | Active |
+| 3 | Tautomer normalization (His imidazole) | Active |
+
+---
+
 ## Project Structure
 
 ```
@@ -167,7 +251,9 @@ helm_sar/
 │   ├── helm_alignment.py         Cosine rotation alignment + Needleman-Wunsch (nw_align)
 │   ├── helm_compare.py           Structural identity
 │   ├── residue_colors.py         Zappo + charge/LogP colour schemes
-│   ├── rdkit_bridge.py           RDKit descriptor calculation
+│   ├── rdkit_bridge.py           RDKit descriptor calculation + HELM→SMILES assembly
+│   ├── smiles_to_helm.py         SMILES→HELM fragmentation (backbone amide cut, R3 promotion, terminal caps, tautomers)
+│   ├── reckoning.py              Fragmentation validation harness — scores against ground truth, --new for novel compounds
 │   └── table_io.py               Unified csv/tsv/xlsx/numbers reader (read_table)
 │
 ├── sar_report/                   ← SAR report generator package
@@ -187,15 +273,20 @@ helm_sar/
 ├── examples/                     ← Paper-replication scripts (write CSVs/figures into data/)
 │   ├── pyy_lipidation_scan.py    Generates data/pyy_lipidation_scan.csv (52 analogs)
 │   ├── medi7219_sar.py           Generates data/medi7219_sar.csv (5 compounds)
-│   └── pyy_figures.py            Recreates Østergaard 2021 Fig 2 PNG/PDF
+│   ├── pyy_figures.py            Recreates Østergaard 2021 Fig 2 PNG/PDF
+│   └── cuaac_dashboard.py        HTML dashboard for CuAAC triazole → HELM pipeline
 │
-├── data/                         ← Sample library inputs (generated reports are gitignored)
+├── data/                         ← Sample library inputs + fragmentation data
 │   ├── pyy_lipidation_scan.csv   PYY3-36 lipidation scan (52 analogs)
-│   └── medi7219_sar.csv          GLP-1 / MEDI7219 series (5 compounds)
+│   ├── medi7219_sar.csv          GLP-1 / MEDI7219 series (5 compounds)
+│   ├── ground_truth.json         Curated SMILES↔HELM pairs for fragmentation validation (9 entries)
+│   ├── fragmentation_rules.json  Layered rule library (active + planned)
+│   ├── cuaac_dashboard.html      CuAAC pipeline HTML dashboard (generated by examples/cuaac_dashboard.py)
+│   └── pending_monomers.json     Auto-discovered UNK_* monomers awaiting chemist review
 │
-└── tests/                        ← 43 tests
+└── tests/                        ← 67 tests
     ├── peptide_design/           core, generator, validator, PYY integration
-    └── scripts/                  SAR engine safety-net + table_io reader
+    └── scripts/                  SMILES→HELM fragmentation, SAR engine, table_io reader
 ```
 
 ## Custom monomers
@@ -204,18 +295,23 @@ Both tools share `monomer_db/custom_monomers.json`:
 
 | Symbol | Description |
 |--------|-------------|
-| `gGlu` | γ-glutamic acid linker |
-| `Ado` | 8-amino-3,6-dioxaoctanoic acid (PEG spacer) |
+| `gGlu` | γ-Glutamic acid linker (alpha-N to chain, gamma-COOH free) |
+| `Ado` | 8-Amino-3,6-dioxaoctanoic acid (PEG spacer) |
 | `C12d`–`C20d` | C12/C14/C16/C18/C20 diacid terminal monomers |
 | `Aib` | 2-Aminoisobutyric acid (α-methylalanine) |
 | `aMePhe` | α-Methyl-L-phenylalanine |
 | `aMeSer` | α-Methyl-L-serine |
 | `aMeLys` | α-Methyl-L-lysine (ε-N for lipidation) |
-| `Triazole14` | 1,4-disubstituted 1,2,3-triazole (CuAAC product) — CHEM type |
-| `Hpg` / `Pra` | Homopropargylglycine / propargylglycine (alkyne handles) |
-| `Aha` | L-Azidohomoalanine (azide handle) |
+| `Sar` | Sarcosine (N-methylglycine) |
+| `MeLeu` | N-methyl-L-leucine |
+| `MeVal` | N-methyl-L-valine |
+| `MeBmt` | N-methyl-(4R)-4-[(E)-2-butenyl]-4-methyl-L-threonine (cyclosporin A residue 1) |
 | `meR` | N-methyl-arginine |
-| `AcI` | N-acetyl-isoleucine (N-terminal cap) |
+| `AcI` | N-acetyl-isoleucine (N-terminal acetyl cap) |
+| `Triazole14` | 1,4-Disubstituted 1,2,3-triazole (CuAAC product) — **CHEM** polymer type |
+| `Aha` | L-Azidohomoalanine — post-click form (R3 on sidechain end, azide consumed) |
+| `Hpg` | L-Homopropargylglycine — post-click form (R3 on C4 sidechain end, alkyne consumed) |
+| `Pra` | L-Propargylglycine — post-click form, shorter 1-carbon sidechain variant |
 
 ## Dependencies
 

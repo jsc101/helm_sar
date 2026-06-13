@@ -56,6 +56,11 @@ class HELMObject:
     # RDKit — monomer-level descriptors
     # ------------------------------------------------------------------ #
 
+    def to_smiles(self, chain_id: str | None = None, cap_c: str = 'amide') -> str | None:
+        """Assemble a chain to a fully capped canonical SMILES (delegates to rdkit_bridge)."""
+        from scripts.rdkit_bridge import helm_obj_to_smiles
+        return helm_obj_to_smiles(self, chain_id=chain_id, cap_c=cap_c)
+
     def monomer_mol(self, pos: int, chain_id: str | None = None):
         """
         Return an RDKit Mol for the monomer at *pos* with R-groups capped.
